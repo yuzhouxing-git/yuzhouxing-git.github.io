@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Hello</title>
-  </head>
-  <body>
-    <p>Hello, World!</p>
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>个人简介</title>
+	<link rel="icon" href="lib/image/title.jpg">
+	<link rel="stylesheet" type="text/css" href="lib/css/basic.css">
+	<script type="text/javascript" src="lib/javascript/basic.js"></script>
+</head>
+<body>
+	<div class="main">
+		<img class="title" src="lib/image/title.jpg" alt="头像">
+		<h2>山涧的蒲公英</h2>
+		<p>Welcome to my introduce.</p>
+		<div id="button">
+			<button type="button" style="margin-left: 10px;" onclick="introduce()">个人简介</button>
+			<button type="button" style="margin-left: 250px;" onclick="github()">代码仓库</button>
+			<button type="button" style="margin-left: 240px;" onclick="bilibili()">B站主页</button>
+		</div>
+		<div id="introduce">
+			<p>一个喜爱游戏,酷爱编程的混子</p>
+			<p>一个刚学了3天网页的小白</p>
+			<p>如果你觉得网页做的太烂,请您不要喷我</p>
+			<p>真的用心在做了</p>
+			<p>如果您有修改的意见,请发到邮件: 1658376208@qq.com</p>
+			<p>其他就没什么了~~</p>
+			<a href="javascript:;" onclick="back()">&#60;返回</a>
+		</div>
+	</div>
+</body>
 </html>
